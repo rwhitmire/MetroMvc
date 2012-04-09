@@ -1,0 +1,84 @@
+﻿input[type="text"], input[type="password"]{
+	border:1px solid #ccc;
+	padding:4px;
+	width:200px;
+}
+
+input[type="button"], input[type="submit"], button{
+	background-color:@lime;
+	border:none;
+	color:@white;
+	padding:10px 20px;
+	opacity:0.75;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover, button:hover{
+	opacity:1;
+}
+
+header{
+	height:100px;
+}
+
+#title{
+	float:left;
+}
+
+#logindisplay{
+	float:right;
+	margin-top:50px;
+}
+
+.page{
+	width:960px;
+	margin:0 auto;
+}
+
+nav{
+	width:160px;
+	float:left;
+}
+
+section#main{
+	margin-left:180px;
+}
+
+table.metro-table{
+	width: 100%;
+	border-collapse:collapse;
+
+	th{
+		text-align: left;
+		font-weight: normal;
+		background:@blue;
+		color:@white;
+		padding:6px;
+		text-transform:uppercase;
+	}
+
+	td{
+		padding:6px;
+		border-bottom:1px solid @lightgray;
+	}
+}
+
+.validation-summary-errors{
+	background-color: @orange;
+	color:@white;
+	margin-bottom:5px;
+	opacity: .75;
+
+	ul{
+		list-style:none;
+		padding:10px;
+		margin:0;
+	}
+}
+
+.editor-label, .display-label{
+	margin-bottom:2px;
+}
+
+.editor-field, .display-field{
+	margin-bottom:10px;
+}
